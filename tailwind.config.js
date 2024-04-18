@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["CustomFont", "sans-serif"],
+      },
       colors: {
         "very-dark-grey-blue": "#333333",
         "blue-1": "#0A327B",
@@ -13,8 +16,8 @@ export default {
         "grey-blue": "#939CAD",
         "light-grey-blue": "#E5EFFA",
         "very-light-grey-blue": "#DDE7EE",
-        "snow": "#F7FAFD",
-        "white": "#FFFFFF",
+        snow: "#F7FAFD",
+        white: "#FFFFFF",
       },
     },
   },
