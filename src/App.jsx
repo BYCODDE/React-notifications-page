@@ -2,11 +2,9 @@ import "./App.css";
 import Header from "./components/Header/Header";
 function App() {
   return (
-    <div className="bg-white min-h-screen flex justify-center	items-center">
-      <main className="h-900  ">
-        <Header></Header>
-      </main>
-    </div>
+    <main className="w-[730px] bg-white h-[839px] pt-[32px] pb-[17px] pl-[30px] pr-[30px]">
+      <Header></Header>
+    </main>
   );
 }
 
