@@ -19,23 +19,28 @@ export default function Marked() {
           1m ago{" "}
         </span>
       </div>
-      <div className="my-[8px] gap-[5px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
-        <img src={img2} className="w-[45px] h-[45px]"></img>
+      <div className=" relative my-[8px] gap-[7px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
+        <img src={img2} className="mr-4  w-[45px] h-[45px]"></img>
         <span className="text-very-dark-grey-blue text-[15px] font-bold  custom-font-style">
           Angela Gray
         </span>{" "}
         followed you <div className="w-[8px] h-[8px] bg-red-2 rounded "></div>
-        <span className="font-medium opacity-60	grey-blue">5m ago </span>
+        <span className=" absolute top-12 left-[13%]   font-medium opacity-60	grey-blue">
+          5m ago{" "}
+        </span>
       </div>
-      <div className="gap-[5px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
-        <img src={img3} className="w-[45px] h-[45px]"></img>
+      <div className="relative   gap-[7px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
+        <img src={img3} className="mr-4  w-[45px] h-[45px]"></img>
         <span className="text-very-dark-grey-blue text-[15px] font-bold  custom-font-style">
           Jacob Thompson
         </span>{" "}
         has joined your group
         <span className="text-[16px] text-blue-1  font-bold ">Chess Club</span>
         <div className="w-[8px] h-[8px] bg-red-2 rounded "></div>
-        <span className="font-medium opacity-60	grey-blue"> 1 day ago </span>
+        <span className=" absolute top-12 left-[13%]  font-medium opacity-60	grey-blue">
+          {" "}
+          1 day ago{" "}
+        </span>
       </div>
     </section>
   );
