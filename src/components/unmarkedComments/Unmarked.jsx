@@ -8,7 +8,7 @@ export default function Unmarked() {
     <section className="">
       <div className="gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img src={img4} className="mr-4  w-[45px] h-[45px]"></img>
-        <span className="text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style hover:text-blue-1 cursor-pointer">
+        <span className=" {max-w-screen-md  text-[14px] }   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style hover:text-blue-1 cursor-pointer">
           Rizky Hasanuddin
         </span>{" "}
         sent you a private message
@@ -24,7 +24,7 @@ export default function Unmarked() {
 
       <div className="gap-[7px] mb-[26px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img src={img5} className="mr-4 w-[45px] h-[45px]"></img>
-        <span className="text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style hover:text-blue-1 cursor-pointer">
+        <span className="{max-w-screen-md  text-[14px] }   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style hover:text-blue-1 cursor-pointer">
           Kimberly Smith
         </span>{" "}
         commented on your picture
@@ -40,7 +40,7 @@ export default function Unmarked() {
 
       <div className=" mb-[26px] gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img src={img7} className="mr-4 w-[45px] h-[45px]"></img>
-        <span className="text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
+        <span className="  {max-w-screen-md  text-[14px] }  text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
           Nathan Peterson
         </span>{" "}
         reacted to your recent post
@@ -59,7 +59,7 @@ export default function Unmarked() {
       </div>
       <div className="gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img src={img8} className="mr-4 w-[45px] h-[45px]"></img>
-        <span className="text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
+        <span className=" {max-w-screen-md  text-[14px] }  text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
           Anna Kim{" "}
         </span>{" "}
         left the group
