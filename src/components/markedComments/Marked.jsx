@@ -35,7 +35,7 @@ export default function Marked() {
           Jacob Thompson
         </span>{" "}
         has joined your group
-        <span className="text-[16px] text-blue-1  font-bold ">Chess Club</span>
+        <span className=" text-blue-1  font-bold ">Chess Club</span>
         <div className="w-[8px] h-[8px] bg-red-2 rounded "></div>
         <span className=" absolute top-12 left-[13%]  font-medium opacity-60	grey-blue">
           {" "}
