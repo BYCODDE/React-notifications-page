@@ -10,21 +10,27 @@ export default function Unmarked() {
           Rizky Hasanuddin
         </span>{" "}
         sent you a private message
-        <span className=" absolute top-12 left-[13%] font-medium opacity-60	grey-blue"> 5 days ago </span>
+        <span className=" absolute top-12 left-[13%] font-medium opacity-60	grey-blue">
+          {" "}
+          5 days ago{" "}
+        </span>
       </div>
-      <div className="ml-[5.5rem] font-medium  px-[20px] py-[20px] pt-[12px] text-[16px] w-[566px] h-[97px] border border-solid border-very-light-grey-blue bg-white rounded-[5px]">
+      <div className="ml-[5.5rem] font-medium  pt-2 pb-2 pl-3 pr-3 text-[16px] w-[544px] h-[97px] border border-solid border-very-light-grey-blue bg-white rounded-[5px]">
         Hello, thanks for setting up the Chess Club. I’ve been a member for a
         few weeks now and I’m already having lots of fun and improving my game.
       </div>
 
-      <div className="gap-[10px]  flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
-        <img src={img5} className="w-[45px] h-[45px]"></img>
+      <div className="gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
+        <img src={img5} className="mr-4 w-[45px] h-[45px]"></img>
         <span className="text-very-dark-grey-blue text-[15px] font-bold  custom-font-style">
           Kimberly Smith
         </span>{" "}
         commented on your picture
-        <img src={img6} className="w-[45px] h-[45px]"></img>
-        <span className="font-medium opacity-60	grey-blue"> 1 week ago</span>
+        <img src={img6} className=" ml-[10.2rem] w-[45px] h-[45px]"></img>
+        <span className=" absolute top-12 left-[13%]  font-medium opacity-60	grey-blue">
+          {" "}
+          1 week ago
+        </span>
       </div>
     </section>
   );
