@@ -17,7 +17,7 @@ export default function Marked() {
         <div className="w-[8px] h-[8px] bg-red-2 rounded "></div>
         <span className="font-medium opacity-60 grey-blue">1m ago </span>
       </div>
-      <div className="my-[8px] gap-[5px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
+      <div className="my-[8px] gap-[20px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img src={img2} className="w-[45px] h-[45px]"></img>
         <span className="text-very-dark-grey-blue text-[15px] font-bold  custom-font-style">
           Angela Gray
@@ -25,7 +25,7 @@ export default function Marked() {
         followed you <div className="w-[8px] h-[8px] bg-red-2 rounded "></div>
         <span className="font-medium opacity-60	grey-blue">5m ago </span>
       </div>
-      <div className="gap-[5px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
+      <div className="gap-[20px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img src={img3} className="w-[45px] h-[45px]"></img>
         <span className="text-very-dark-grey-blue text-[15px] font-bold  custom-font-style">
           Jacob Thompson
