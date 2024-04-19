@@ -9,7 +9,7 @@ function Header() {
           3
         </div>
       </div>
-      <h3 className="text-dark-grey-blue text-right  font-medium text-base ">
+      <h3 className="   text-dark-grey-blue text-right  font-medium text-base hover:text-blue-1 cursor-pointer	 ">
         Mark all as read
       </h3>
     </section>
