@@ -5,7 +5,7 @@ import img3 from "/images/avatar-jacob-thompson.webp";
 export default function Marked() {
   return (
     <section className="mt-[31px]">
-      <div className="    text-[16px] gap-[7px] relative flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
+      <div className=" md:pt-[16px] md:pb-[16px] md:pl-[16px] md:pr-[27px]  md:text-[14px]  text-[16px] gap-[7px] relative flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img
           src={img1}
           alt="first_img"
@@ -24,7 +24,10 @@ export default function Marked() {
         </span>
       </div>
       <div className="   relative my-[8px] gap-[7px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
-        <img src={img2} className="md:w-[39px] md:h-[39px]   mr-4  w-[45px] h-[45px]"></img>
+        <img
+          src={img2}
+          className="md:w-[39px] md:h-[39px]   mr-4  w-[45px] h-[45px]"
+        ></img>
         <span className=" md:text-[14px]  text-very-dark-grey-blue text-[15px] font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
           Angela Gray
         </span>{" "}
@@ -34,7 +37,10 @@ export default function Marked() {
         </span>
       </div>
       <div className="   relative   gap-[7px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
-        <img src={img3} className=" md:w-[39px] md:h-[39px]  mr-4  w-[45px] h-[45px]"></img>
+        <img
+          src={img3}
+          className=" md:w-[39px] md:h-[39px]  mr-4  w-[45px] h-[45px]"
+        ></img>
         <span className=" md:text-[14px]  text-very-dark-grey-blue text-[15px] font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
           Jacob Thompson
         </span>{" "}
