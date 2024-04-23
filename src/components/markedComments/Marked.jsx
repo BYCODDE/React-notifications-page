@@ -18,12 +18,12 @@ export default function Marked() {
         <span className="md:absolute md:top-12 md:left-[19%]    dark-grey-blue  font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
           My first tournament today!
         </span>
-        <div className=" md:absolute md:left-[73%] md:top-[3.5rem]  w-[8px] h-[8px] bg-red-2 rounded "></div>
+        <div className=" md:absolute md:left-[74%] md:top-[3.5rem]  w-[8px] h-[8px] bg-red-2 rounded "></div>
         <span className=" md:top-[4rem] md:left-[19%] absolute top-[2rem] left-[13%] font-medium opacity-60 grey-blue">
           1m ago{" "}
         </span>
       </div>
-      <div className=" md:gap-[3px] relative my-[8px] gap-[7px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
+      <div className=" md:gap-[3px] relative my-[8px] gap-[7px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[16px] pl-[20px] pr-[32px]">
         <img
           src={img2}
           className="md:mr-1    md:w-[39px] md:h-[39px]   mr-4  w-[45px] h-[45px]"
@@ -32,8 +32,8 @@ export default function Marked() {
           Angela Gray
         </span>{" "}
         followed you{" "}
-        <div className="mg:ml-[5px] w-[8px] h-[8px] bg-red-2 rounded "></div>
-        <span className=" md:top-[3rem] md:left-[18%]   absolute top-12 left-[13%]   font-medium opacity-60	grey-blue">
+        <div className="md:ml-[5px] w-[8px] h-[8px] bg-red-2 rounded "></div>
+        <span className=" md:top-[3rem] md:left-[19%]   absolute top-12 left-[13%]   font-medium opacity-60	grey-blue">
           5m ago{" "}
         </span>
       </div>
