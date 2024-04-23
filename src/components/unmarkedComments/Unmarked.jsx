@@ -26,20 +26,23 @@ export default function Unmarked() {
         few weeks now and I’m already having lots of fun and improving my game.
       </div>
 
-      <div className="    gap-[7px] mb-[26px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
+      <div className="md:pt-[5px] md:pb-[16px] md:pl-[16px] md:pr-[22px]  md:whitespace-nowrap md:gap-[3px] md:relative   gap-[7px] mb-[26px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img
           src={img5}
-          className="md:w-[39px] md:h-[39px]    mr-4 w-[45px] h-[45px]  "
+          className="md:mr-1  md:w-[39px] md:h-[39px]    mr-4 w-[45px] h-[45px]  "
         ></img>
         <span className=" md:text-[14px]   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style hover:text-blue-1 cursor-pointer">
           Kimberly Smith
         </span>{" "}
-        commented on your picture
+        commented{" "}
+        <span className="md:absolute md:left-[19%] md:top-[2rem]">
+          on your picture
+        </span>
         <img
           src={img6}
           className=" md:w-[39px] md:h-[39px]  md:ml-auto     ml-[10.2rem] w-[45px] h-[45px] cursor-pointer  "
         ></img>
-        <span className=" absolute top-12 left-[13%]  font-medium opacity-60	grey-blue">
+        <span className=" md:top-14 md:left-[19%]  absolute top-12 left-[13%]  font-medium opacity-60	grey-blue">
           {" "}
           1 week ago
         </span>
