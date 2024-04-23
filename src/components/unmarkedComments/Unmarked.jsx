@@ -15,8 +15,8 @@ export default function Unmarked() {
           Rizky Hasanuddin
         </span>{" "}
         sent you a private{" "}
-        <span className="md:top-[2rem] md:left-[18%] md:absolute">message</span>
-        <span className=" absolute top-12 left-[18%] font-medium opacity-60	grey-blue">
+        <span className="md:top-[2rem] md:left-[4rem]  md:absolute">message</span>
+        <span className=" md:left-[4rem]  absolute top-12 left-[13%] font-medium opacity-60	grey-blue">
           {" "}
           5 days ago{" "}
         </span>
@@ -35,14 +35,14 @@ export default function Unmarked() {
           Kimberly Smith
         </span>{" "}
         commented{" "}
-        <span className="md:absolute md:left-[18%] md:top-[2rem]">
+        <span className="md:absolute md:left-[4rem] md:top-[2rem]">
           on your picture
         </span>
         <img
           src={img6}
           className=" md:w-[39px] md:h-[39px]  md:ml-auto     ml-[10.2rem] w-[45px] h-[45px] cursor-pointer  "
         ></img>
-        <span className=" md:top-[3rem] md:left-[19%]  absolute top-12 left-[13%]  font-medium opacity-60	grey-blue">
+        <span className=" md:top-[3rem] md:left-[4rem]  absolute top-12 left-[13%]  font-medium opacity-60	grey-blue">
           {" "}
           1 week ago
         </span>
@@ -57,14 +57,14 @@ export default function Unmarked() {
           Nathan Peterson
         </span>{" "}
         reacted to your recent post
-        <span className="md:top-[2rem] md:left-[18%]  md:absolute dark-grey-blue  font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
+        <span className="md:top-[2rem] md:left-[4rem]  md:absolute dark-grey-blue  font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
           5 end-game strategies to{" "}
         </span>
         <div>
-          <span className="md:left-[18%] absolute top-12 left-[13%] dark-grey-blue  font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
+          <span className="md:left-[4rem] absolute top-12 left-[13%] dark-grey-blue  font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
             increase your win rate
           </span>
-          <span className="md:top-[4.2rem] md:left-[18%]  absolute top-[4.5rem] left-[13%]  font-medium opacity-60	grey-blue">
+          <span className="md:top-[4.2rem] md:left-[4rem]  absolute top-[4.5rem] left-[13%]  font-medium opacity-60	grey-blue">
             {" "}
             2 week ago
           </span>
@@ -83,7 +83,7 @@ export default function Unmarked() {
           Chess Club
         </span>
         <div>
-          <span className=" md:left-[18%] absolute top-[2.8rem] left-[13%]  font-medium opacity-60	grey-blue">
+          <span className=" md:left-[4rem]   absolute top-[2.8rem] left-[13%]  font-medium opacity-60	grey-blue">
             {" "}
             2 week ago
           </span>

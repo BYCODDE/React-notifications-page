@@ -15,11 +15,11 @@ export default function Marked() {
           Mark Webber
         </span>{" "}
         reacted to your recent post{" "}
-        <span className="md:absolute md:top-12 md:left-[19%]    dark-grey-blue  font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
+        <span className="md:absolute md:top-12 md:left-[4rem]   dark-grey-blue  font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
           My first tournament today!
         </span>
-        <div className=" md:absolute md:left-[74%] md:top-[3.5rem]  w-[8px] h-[8px] bg-red-2 rounded "></div>
-        <span className=" md:top-[4rem] md:left-[19%] absolute top-[2rem] left-[13%] font-medium opacity-60 grey-blue">
+        <div className=" md:absolute md:left-[16rem] md:top-[3.5rem]  w-[8px] h-[8px] bg-red-2 rounded "></div>
+        <span className=" md:top-[4rem] md:left-[4rem]  absolute top-[3rem] left-[13%] font-medium opacity-60 grey-blue">
           1m ago{" "}
         </span>
       </div>
@@ -33,7 +33,7 @@ export default function Marked() {
         </span>{" "}
         followed you{" "}
         <div className="md:ml-[5px] w-[8px] h-[8px] bg-red-2 rounded "></div>
-        <span className=" md:top-[3rem] md:left-[19%]   absolute top-12 left-[13%]   font-medium opacity-60	grey-blue">
+        <span className=" md:top-[3rem] md:left-[4rem]    absolute top-12 left-[13%]   font-medium opacity-60	grey-blue">
           5m ago{" "}
         </span>
       </div>
@@ -46,11 +46,11 @@ export default function Marked() {
           Jacob Thompson
         </span>{" "}
         has joined your group
-        <span className="md:top-12 md:left-[18%]    md:absolute text-blue-1  font-extrabold	 cursor-pointer">
+        <span className="md:top-12 md:left-[4rem]     md:absolute text-blue-1  font-extrabold	 cursor-pointer">
           Chess Club
         </span>
-        <div className=" md:top-[3.5rem] md:left-[43%]   md:absolute  w-[8px] h-[8px] bg-red-2 rounded "></div>
-        <span className=" md:left-[19%] md:top-[4rem]  absolute top-12 left-[13%]  font-medium opacity-60	grey-blue">
+        <div className=" md:top-[3.5rem] md:left-[9.5rem]   md:absolute  w-[8px] h-[8px] bg-red-2 rounded "></div>
+        <span className=" md:left-[4rem]  md:top-[4rem]  absolute top-12 left-[13%]  font-medium opacity-60	grey-blue">
           {" "}
           1 day ago{" "}
         </span>
