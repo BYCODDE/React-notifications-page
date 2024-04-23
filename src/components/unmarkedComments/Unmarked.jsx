@@ -7,8 +7,8 @@ export default function Unmarked() {
   return (
     <section className="">
       <div className=" gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
-        <img src={img4} className="mr-4  w-[45px] h-[45px]  "></img>
-        <span className=" md:text-[14px]   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style hover:text-blue-1 cursor-pointer">
+        <img src={img4} className="md:w-[39px] md:h-[39px]  mr-4  w-[45px] h-[45px]  "></img>
+        <span className="   md:text-[14px]  text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style hover:text-blue-1 cursor-pointer">
           Rizky Hasanuddin
         </span>{" "}
         sent you a private message
@@ -23,14 +23,14 @@ export default function Unmarked() {
       </div>
 
       <div className="    gap-[7px] mb-[26px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
-        <img src={img5} className="mr-4 w-[45px] h-[45px]  "></img>
+        <img src={img5} className="md:w-[39px] md:h-[39px]    mr-4 w-[45px] h-[45px]  "></img>
         <span className=" md:text-[14px]   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style hover:text-blue-1 cursor-pointer">
           Kimberly Smith
         </span>{" "}
         commented on your picture
         <img
           src={img6}
-          className=" ml-[10.2rem] w-[45px] h-[45px] cursor-pointer  "
+          className=" md:w-[39px] md:h-[39px]  md:ml-auto     ml-[10.2rem] w-[45px] h-[45px] cursor-pointer  "
         ></img>
         <span className=" absolute top-12 left-[13%]  font-medium opacity-60	grey-blue">
           {" "}
@@ -39,7 +39,7 @@ export default function Unmarked() {
       </div>
 
       <div className=" {    mb-[26px] gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
-        <img src={img7} className="mr-4 w-[45px] h-[45px]  "></img>
+        <img src={img7} className="md:w-[39px] md:h-[39px]   mr-4 w-[45px] h-[45px]  "></img>
         <span className="  md:text-[14px]   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
           Nathan Peterson
         </span>{" "}
@@ -58,7 +58,7 @@ export default function Unmarked() {
         </div>
       </div>
       <div className="   gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
-        <img src={img8} className="mr-4 w-[45px] h-[45px]  "></img>
+        <img src={img8} className="md:w-[39px] md:h-[39px]   mr-4 w-[45px] h-[45px]  "></img>
         <span className=" md:text-[14px]   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
           Anna Kim{" "}
         </span>{" "}

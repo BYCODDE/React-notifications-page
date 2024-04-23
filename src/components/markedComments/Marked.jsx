@@ -9,7 +9,7 @@ export default function Marked() {
         <img
           src={img1}
           alt="first_img"
-          className="    mr-4 w-[45px] h-[45px]"
+          className=" md:w-[39px] md:h-[39px]   mr-4 w-[45px] h-[45px]"
         />
         <span className=" md:text-[14px]   text-very-dark-grey-blue  font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
           Mark Webber
@@ -24,7 +24,7 @@ export default function Marked() {
         </span>
       </div>
       <div className="   relative my-[8px] gap-[7px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
-        <img src={img2} className="  mr-4  w-[45px] h-[45px]"></img>
+        <img src={img2} className="md:w-[39px] md:h-[39px]   mr-4  w-[45px] h-[45px]"></img>
         <span className=" md:text-[14px]  text-very-dark-grey-blue text-[15px] font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
           Angela Gray
         </span>{" "}
@@ -34,7 +34,7 @@ export default function Marked() {
         </span>
       </div>
       <div className="   relative   gap-[7px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
-        <img src={img3} className="    mr-4  w-[45px] h-[45px]"></img>
+        <img src={img3} className=" md:w-[39px] md:h-[39px]  mr-4  w-[45px] h-[45px]"></img>
         <span className=" md:text-[14px]  text-very-dark-grey-blue text-[15px] font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
           Jacob Thompson
         </span>{" "}
