@@ -8,7 +8,7 @@ export default function Unmarked() {
     <section className="">
       <div className=" gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img src={img4} className="mr-4  w-[45px] h-[45px]  "></img>
-        <span className="   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style hover:text-blue-1 cursor-pointer">
+        <span className=" md:text-[14px]   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style hover:text-blue-1 cursor-pointer">
           Rizky Hasanuddin
         </span>{" "}
         sent you a private message
@@ -17,14 +17,14 @@ export default function Unmarked() {
           5 days ago{" "}
         </span>
       </div>
-      <div className="      hover:bg-light-grey-blue cursor-pointer   ml-[5.5rem] mb-[15px] font-medium  pt-2 pb-2 pl-3 pr-3 text-[16px] w-[544px] h-[97px] border border-solid border-very-light-grey-blue bg-white rounded-[5px]">
+      <div className=" md:p-[16px]  md:w-[263px] md:h-[auto]   md:text-[14px]  hover:bg-light-grey-blue cursor-pointer   ml-[5.5rem] mb-[15px] font-medium  pt-2 pb-2 pl-3 pr-3 text-[16px] w-[544px] h-[97px] border border-solid border-very-light-grey-blue bg-white rounded-[5px]">
         Hello, thanks for setting up the Chess Club. I’ve been a member for a
         few weeks now and I’m already having lots of fun and improving my game.
       </div>
 
       <div className="    gap-[7px] mb-[26px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img src={img5} className="mr-4 w-[45px] h-[45px]  "></img>
-        <span className="   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style hover:text-blue-1 cursor-pointer">
+        <span className=" md:text-[14px]   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style hover:text-blue-1 cursor-pointer">
           Kimberly Smith
         </span>{" "}
         commented on your picture
@@ -40,7 +40,7 @@ export default function Unmarked() {
 
       <div className=" {    mb-[26px] gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img src={img7} className="mr-4 w-[45px] h-[45px]  "></img>
-        <span className="   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
+        <span className="  md:text-[14px]   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
           Nathan Peterson
         </span>{" "}
         reacted to your recent post
@@ -59,7 +59,7 @@ export default function Unmarked() {
       </div>
       <div className="   gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img src={img8} className="mr-4 w-[45px] h-[45px]  "></img>
-        <span className="   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
+        <span className=" md:text-[14px]   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
           Anna Kim{" "}
         </span>{" "}
         left the group

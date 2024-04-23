@@ -11,7 +11,7 @@ export default function Marked() {
           alt="first_img"
           className="    mr-4 w-[45px] h-[45px]"
         />
-        <span className="   text-very-dark-grey-blue  font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
+        <span className=" md:text-[14px]   text-very-dark-grey-blue  font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
           Mark Webber
         </span>{" "}
         reacted to your recent post{" "}
@@ -25,7 +25,7 @@ export default function Marked() {
       </div>
       <div className="   relative my-[8px] gap-[7px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img src={img2} className="  mr-4  w-[45px] h-[45px]"></img>
-        <span className="  text-very-dark-grey-blue text-[15px] font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
+        <span className=" md:text-[14px]  text-very-dark-grey-blue text-[15px] font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
           Angela Gray
         </span>{" "}
         followed you <div className="w-[8px] h-[8px] bg-red-2 rounded "></div>
@@ -35,7 +35,7 @@ export default function Marked() {
       </div>
       <div className="   relative   gap-[7px]  flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img src={img3} className="    mr-4  w-[45px] h-[45px]"></img>
-        <span className="  text-very-dark-grey-blue text-[15px] font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
+        <span className=" md:text-[14px]  text-very-dark-grey-blue text-[15px] font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
           Jacob Thompson
         </span>{" "}
         has joined your group
