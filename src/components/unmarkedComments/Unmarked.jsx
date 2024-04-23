@@ -26,7 +26,7 @@ export default function Unmarked() {
         few weeks now and I’m already having lots of fun and improving my game.
       </div>
 
-      <div className="md:pt-[5px] md:pb-[16px] md:pl-[16px] md:pr-[22px]  md:whitespace-nowrap md:gap-[3px] md:relative   gap-[7px] mb-[26px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
+      <div className="md:pt-[5px] md:pb-[16px] md:pl-[16px] md:pr-[22px]  md:whitespace-nowrap md:gap-[3px]   gap-[7px] mb-[26px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img
           src={img5}
           className="md:mr-1  md:w-[39px] md:h-[39px]    mr-4 w-[45px] h-[45px]  "
@@ -35,45 +35,45 @@ export default function Unmarked() {
           Kimberly Smith
         </span>{" "}
         commented{" "}
-        <span className="md:absolute md:left-[19%] md:top-[2rem]">
+        <span className="md:absolute md:left-[18%] md:top-[2rem]">
           on your picture
         </span>
         <img
           src={img6}
           className=" md:w-[39px] md:h-[39px]  md:ml-auto     ml-[10.2rem] w-[45px] h-[45px] cursor-pointer  "
         ></img>
-        <span className=" md:top-14 md:left-[19%]  absolute top-12 left-[13%]  font-medium opacity-60	grey-blue">
+        <span className=" md:top-[3rem] md:left-[19%]  absolute top-12 left-[13%]  font-medium opacity-60	grey-blue">
           {" "}
           1 week ago
         </span>
       </div>
 
-      <div className=" {    mb-[26px] gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
+      <div className=" md:pt-[5px] md:pb-[16px] md:pl-[16px] md:pr-[22px]  md:whitespace-nowrap md:gap-[3px]     mb-[26px] gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img
           src={img7}
-          className="md:w-[39px] md:h-[39px]   mr-4 w-[45px] h-[45px]  "
+          className="md:mr-1  md:w-[39px] md:h-[39px]   mr-4 w-[45px] h-[45px]  "
         ></img>
         <span className="  md:text-[14px]   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
           Nathan Peterson
         </span>{" "}
         reacted to your recent post
-        <span className="dark-grey-blue  font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
+        <span className="md:top-[2rem] md:left-[18%]  md:absolute dark-grey-blue  font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
           5 end-game strategies to{" "}
         </span>
         <div>
-          <span className="absolute top-12 left-[13%] dark-grey-blue  font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
+          <span className="md:left-[18%] absolute top-12 left-[13%] dark-grey-blue  font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
             increase your win rate
           </span>
-          <span className=" absolute top-[4.5rem] left-[13%]  font-medium opacity-60	grey-blue">
+          <span className="md:top-[4.2rem] md:left-[18%]  absolute top-[4.5rem] left-[13%]  font-medium opacity-60	grey-blue">
             {" "}
             2 week ago
           </span>
         </div>
       </div>
-      <div className="   gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
+      <div className=" md:gap-[3px]  gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
         <img
           src={img8}
-          className="md:w-[39px] md:h-[39px]   mr-4 w-[45px] h-[45px]  "
+          className="md:mr-0 md:w-[39px] md:h-[39px]   mr-4 w-[45px] h-[45px]  "
         ></img>
         <span className=" md:text-[14px]   text-very-dark-grey-blue text-[15px] font-extrabold	 custom-font-style  hover:text-blue-1 cursor-pointer">
           Anna Kim{" "}
@@ -83,7 +83,7 @@ export default function Unmarked() {
           Chess Club
         </span>
         <div>
-          <span className=" absolute top-[3rem] left-[13%]  font-medium opacity-60	grey-blue">
+          <span className=" md:left-[18%] absolute top-[2.8rem] left-[13%]  font-medium opacity-60	grey-blue">
             {" "}
             2 week ago
           </span>

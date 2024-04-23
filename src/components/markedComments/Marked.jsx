@@ -33,7 +33,7 @@ export default function Marked() {
         </span>{" "}
         followed you{" "}
         <div className="mg:ml-[5px] w-[8px] h-[8px] bg-red-2 rounded "></div>
-        <span className=" md:top-[3rem] md:left-[20%]   absolute top-12 left-[13%]   font-medium opacity-60	grey-blue">
+        <span className=" md:top-[3rem] md:left-[18%]   absolute top-12 left-[13%]   font-medium opacity-60	grey-blue">
           5m ago{" "}
         </span>
       </div>
