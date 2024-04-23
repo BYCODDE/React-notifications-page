@@ -1,4 +1,4 @@
-function Header() {
+function Header({allMarked}) {
   return (
     <section className="flex items-center justify-between">
       <div className="flex justify-center items-center gap-[11px] ">
@@ -9,7 +9,7 @@ function Header() {
           3
         </div>
       </div>
-      <h3 className="  md:text-[14px]     text-dark-grey-blue text-right  font-medium text-base hover:text-blue-1 cursor-pointer	 ">
+      <h3  onClick={allMarked} className="   md:text-[14px]     text-dark-grey-blue text-right  font-medium text-base hover:text-blue-1 cursor-pointer	 ">
         Mark all as read
       </h3>
     </section>

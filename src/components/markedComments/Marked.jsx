@@ -2,7 +2,7 @@ import img1 from "/images/avatar-mark-webber.webp";
 import img2 from "/images/avatar-angela-gray.webp";
 import img3 from "/images/avatar-jacob-thompson.webp";
 
-export default function Marked() {
+export default function Marked({ marked }) {
   return (
     <section className="mt-[31px]">
       <div className=" md:h-[89px] md:relative  md:whitespace-nowrap  md:pt-[5px] md:pb-[16px] md:pl-[16px] md:pr-[22px]  md:text-[14px]  text-[16px] gap-[7px] relative flex justify-start items-center rounded-[8px] bg-snow pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
@@ -18,7 +18,9 @@ export default function Marked() {
         <span className="md:absolute md:top-12 md:left-[4rem]   dark-grey-blue  font-extrabold	  custom-font-style hover:text-blue-1 cursor-pointer">
           My first tournament today!
         </span>
-        <div className=" md:absolute md:left-[16rem] md:top-[3.5rem]  w-[8px] h-[8px] bg-red-2 rounded "></div>
+        {marked ? (
+          <div className=" md:absolute md:left-[16rem] md:top-[3.5rem]  w-[8px] h-[8px] bg-red-2 rounded "></div>
+        ) : null}
         <span className=" md:top-[4rem] md:left-[4rem]  absolute top-[3rem] left-[13%] font-medium opacity-60 grey-blue">
           1m ago{" "}
         </span>
@@ -32,7 +34,9 @@ export default function Marked() {
           Angela Gray
         </span>{" "}
         followed you{" "}
-        <div className="md:ml-[5px] w-[8px] h-[8px] bg-red-2 rounded "></div>
+        {marked ? (
+          <div className="md:ml-[5px] w-[8px] h-[8px] bg-red-2 rounded "></div>
+        ) : null}
         <span className=" md:top-[3rem] md:left-[4rem]    absolute top-12 left-[13%]   font-medium opacity-60	grey-blue">
           5m ago{" "}
         </span>
@@ -49,7 +53,9 @@ export default function Marked() {
         <span className="md:top-12 md:left-[4rem]     md:absolute text-blue-1  font-extrabold	 cursor-pointer">
           Chess Club
         </span>
-        <div className=" md:top-[3.5rem] md:left-[9.5rem]   md:absolute  w-[8px] h-[8px] bg-red-2 rounded "></div>
+        {marked ? (
+          <div className=" md:top-[3.5rem] md:left-[9.5rem]   md:absolute  w-[8px] h-[8px] bg-red-2 rounded "></div>
+        ) : null}
         <span className=" md:left-[4rem]  md:top-[4rem]  absolute top-12 left-[13%]  font-medium opacity-60	grey-blue">
           {" "}
           1 day ago{" "}
