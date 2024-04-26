@@ -50,9 +50,15 @@ export default function Marked({ marked }) {
           Jacob Thompson
         </span>{" "}
         has joined your group
-        <span className="md:top-12 md:left-[4rem]     md:absolute text-blue-1  font-extrabold	 cursor-pointer">
-          Chess Club
-        </span>
+        {marked ? (
+          <span className="md:top-12 md:left-[4rem]     md:absolute text-blue-1  font-extrabold	 cursor-pointer">
+            Chess Club
+          </span>
+        ) : (
+          <span className=" text-dark-grey-blue  dark-grey-blue  font-extrabold	 custom-font-style cursor-pointer">
+            Chess Club
+          </span>
+        )}
         {marked ? (
           <div className=" md:top-[3.5rem] md:left-[9.5rem]   md:absolute  w-[8px] h-[8px] bg-red-2 rounded "></div>
         ) : null}

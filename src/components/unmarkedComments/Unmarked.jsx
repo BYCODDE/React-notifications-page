@@ -3,7 +3,7 @@ import img5 from "/images/avatar-kimberly-smith.webp";
 import img6 from "/images/image-chess.webp";
 import img7 from "/images/avatar-nathan-peterson.webp";
 import img8 from "/images/avatar-anna-kim.webp";
-export default function Unmarked() {
+export default function Unmarked({ marked }) {
   return (
     <section className="">
       <div className="md:pt-[5px] md:pb-[16px] md:pl-[16px] md:pr-[22px] md:gap-[3px] md:whitespace-nowrap gap-[7px] relative flex justify-start items-center rounded-[8px] bg-white pt-[18px] pb-[17px] pl-[20px] pr-[32px]">
@@ -15,7 +15,9 @@ export default function Unmarked() {
           Rizky Hasanuddin
         </span>{" "}
         sent you a private{" "}
-        <span className="md:top-[2rem] md:left-[4rem]  md:absolute">message</span>
+        <span className="md:top-[2rem] md:left-[4rem]  md:absolute">
+          message
+        </span>
         <span className=" md:left-[4rem]  absolute top-12 left-[13%] font-medium opacity-60	grey-blue">
           {" "}
           5 days ago{" "}
@@ -79,9 +81,15 @@ export default function Unmarked() {
           Anna Kim{" "}
         </span>{" "}
         left the group
-        <span className=" text-blue-1  dark-grey-blue  font-extrabold	 custom-font-style cursor-pointer">
-          Chess Club
-        </span>
+        {marked ? (
+          <span className=" text-blue-1  dark-grey-blue  font-extrabold	 custom-font-style cursor-pointer">
+            Chess Club
+          </span>
+        ) : (
+          <span className=" text-dark-grey-blue  dark-grey-blue  font-extrabold	 custom-font-style cursor-pointer">
+            Chess Club
+          </span>
+        )}
         <div>
           <span className=" md:left-[4rem]   absolute top-[2.8rem] left-[13%]  font-medium opacity-60	grey-blue">
             {" "}

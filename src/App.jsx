@@ -12,9 +12,9 @@ function App() {
   };
   return (
     <main className="w-[100%] bg-white h-[100%] pt-[32px] pb-[17px] pl-[30px] pr-[30px]">
-      <Header allMarked={allMarked}></Header>
+      <Header marked={marked} allMarked={allMarked}></Header>
       <Marked marked={marked}></Marked>
-      <Unmarked></Unmarked>
+      <Unmarked marked={marked}></Unmarked>
     </main>
   );
 }
